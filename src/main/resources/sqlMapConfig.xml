@@ -1,0 +1,14 @@
+<configuration>
+
+    <dataSource>
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/xialu_study"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="tgmm610520"></property>
+    </dataSource>
+
+    <!--mapper.xml的全路径，用于加载mapper.xml-->
+    <mapper resource="StudyMapper.xml"></mapper>
+
+
+</configuration>

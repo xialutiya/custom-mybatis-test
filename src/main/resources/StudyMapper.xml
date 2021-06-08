@@ -1,0 +1,10 @@
+<mapper namespace="xialu.mapper.StudyMapper">
+
+    <select id="findAll" resultType="xialu.entity.Student">
+        SELECT * FROM student
+    </select>
+
+    <select id="findById" paramType="xialu.entity.Student" resultType="xialu.entity.Student">
+        SELECT * FROM student WHERE id = #{id}
+    </select>
+</mapper>
